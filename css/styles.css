@@ -1,0 +1,378 @@
+header {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  overflow-y: hidden;
+  background-color: rgb(86, 66, 115);
+  background-size: cover;
+  color: white;
+  padding-bottom: 20%;
+}
+#bggris{
+	background-color: #E6E6E6;
+	box-sizing: border-box;
+	padding-bottom: 5%;
+}
+#bggrisfinal{
+	background-color: #E6E6E6;
+	box-sizing: border-box;
+}
+#contenedorblanco{
+	background-color: #FFF;
+	padding-bottom: 5%;
+	margin-top: -17.5%;
+	padding: 2% 5%;
+	box-sizing: border-box;
+	max-height: 1200px;
+}
+#contenedorblanco h1{
+	font-weight: 600;
+	color: rgb(86, 66, 115);
+	padding: 0 0 2%;
+}
+#botonhacertest{
+	padding: 1% 5%;
+	background-color:rgb(255,75,139);
+	border-radius: 8px;
+	font-size: 26px;
+	text-decoration: none;
+	color: white;
+	font-weight: 600;
+}
+#auxbr{
+	margin-left: 8.3%;
+}
+/* TABS */
+.nav-tabs{
+	border: none;
+	margin-bottom: 2.5%;
+}
+.nav-tabs > li > a {
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border: none;
+  border-radius: 0;
+}
+.nav-tabs > li > a:hover {
+  border: none;
+  border-color: none;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: rgb(100, 97, 255);
+  cursor: default;
+  background-color: transparent;
+  border: none;
+  border-bottom-color: transparent;
+}
+.nav-tabs a, a:hover, a:focus {
+    color: rgb(204, 204, 204);
+}
+#formatotab{
+	font-family: 'Dosis';
+	font-size: 16px;
+	font-weight: 600;
+}
+/* FIN TABS */
+/* COLORES DE FUENTE */
+#txtamarillo{
+	font-size: 54px;
+	color: #ffc352;
+	padding-left: 7%;
+}
+#txtrosa{
+	font-size: 14px;
+	font-weight: 600;
+	color: #fa4b8b;
+	padding-left: 10%;
+}
+#ticksrosas{
+	font-size: 14px;
+	font-weight: 600;
+	color: #fa4b8b;
+}
+#txtazul{
+	font-size: 26px;
+	font-weight: 600;
+	color: #6461ff;
+}
+#txtgris{
+	font-size: 14px;
+	font-family: 'Ubuntu';
+	color: rgb(153, 153, 153);
+	line-height: 1.3;
+	font-weight: 400;
+	text-align: justify;
+	letter-spacing: 1px;
+}
+#txtvioletaS{
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	color: rgb(86, 66, 115);
+	padding-left: 3%;
+}
+h3{
+	font-weight: 500;
+	font-size: 24px;
+	color: rgb(86, 66, 115);
+}
+.form-control{
+	font-size: 15px;
+	height: 50px;
+	font-family: 'Ubuntu';
+	letter-spacing: 1px;
+	color: rgb(161, 161, 161);
+}
+.completa2{
+	font-size: 20px;
+	line-height: 1;
+}
+/* FIN COLORES DE FUENTE */
+#linea{
+	font-size: 20px;
+	line-height: 2.2;
+	color: rgb(230, 230, 230);
+}
+/* FORMATO ACORDEON */
+#pills{
+	float: left;
+	margin-left: 2%;
+}
+#pills .toggle-box {
+    margin-top: 20px;
+}
+
+#pills .toggle-box p {
+    margin: 0;
+    padding: 0;
+}
+
+#pills .toggle-title {
+    width: 400px;
+    margin-bottom: 0px;
+    padding: 10px;
+    background: rgb(240, 240, 250);
+    cursor: pointer;
+    -moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    border-color: transparent;
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    margin-top: 2%;
+    color: rgb(86, 66, 115);
+    font-family: 'Ubuntu';
+    font-size: 18px;
+}
+
+#pills .toggle-title:hover,
+#pills .toggle-title:active,
+#pills .toggle-title:focus {
+    background: rgb(100, 97, 255);
+    color: white;
+    width: 400px;
+}
+
+#pills .active {
+    background: rgb(100, 97, 255);
+    color: white;
+    border-color: rgb(100, 97, 255);
+    -moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+    -moz-border-radius-bottomright: 0;
+    -moz-border-radius-bottomleft: 0;
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+}
+
+#pills .toggle-title a {
+    color: #111;
+}
+
+#pills .toggle-content {
+    padding-bottom: 0;
+    width: 400px;
+    border: solid 2px #000;
+    -moz-border-radius-topleft: 0;
+	-moz-border-radius-topright: 0;
+    -moz-border-radius-bottomright: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    border-color: rgb(100, 97, 255);
+    -webkit-border-top-left-radius: 0;
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+   	margin-bottom: 2%;
+}
+#pills .toggle-box p{
+	font-family: 'Ubuntu';
+   	font-size: 14px;
+   	text-align: justify;
+   	margin: 3%;
+   	color: rgb(153, 153, 153);
+}
+/* FIN FORMATO ACORDEON */
+/* FORMATO IMPUTS */
+#imputEmail{
+	width: 95%;
+	margin: auto;
+	margin-bottom: 2.5%;
+}
+#imputNPapa{
+	width: 95%;
+	margin: auto;
+	margin-bottom: 2.5%;
+}
+#imputTuN{
+	width: 45%;
+	margin: auto;
+	margin-bottom: 2.5%;
+	float: left;
+	margin-left: 2.5%;
+}
+#imputTuA{
+	width: 47.5%;
+	margin: auto;
+	margin-bottom: 2.5%;
+	float: left;
+	margin-left: 2.5%;
+}
+#btnempezar{
+	padding: 1% 3%;
+	background-color:rgb(255,75,139);
+	border-radius: 3px;
+	font-size: 20px;
+	text-decoration: none;
+	border: none;
+	color: white;
+	font-weight: 600;
+	letter-spacing: 1.2px;
+}
+#btnempezar2{
+	padding: 1% 3%;
+	background-color:rgb(255,75,139);
+	border-radius: 3px;
+	font-size: 20px;
+	text-decoration: none;
+	border: none;
+	color: white;
+	font-weight: 600;
+	letter-spacing: 1.2px;
+	margin-left: 3%;
+}
+/* FIN FORMATO IMPUTS */
+#cardsvg{
+	width: 10.5%;
+	padding-left: 1%;
+	margin-bottom: 2%;
+}
+.fstsvg{
+	margin-left: 1.5%;
+}
+#anchototal{
+	width: 80%;
+}
+#floatcostado{
+	width: 40%;
+	float: left;
+	margin-left: 5%;
+	border-right: solid 2px rgb(240, 240, 240);
+}
+#pcostado{
+	float: left;
+	width: 40%;
+	margin-left: 2%;
+}
+#pcostado2{
+	display: inline;
+	padding-right: 15%;
+	color: rgb(86, 66, 115);
+	font-weight: 500;
+	margin-left: 2%;
+}
+#footerviaedu{
+	margin-top: 1%;
+	margin: auto;
+	width: 4.5%;
+}
+#footerlinks{
+	font-size: 18px;
+	font-weight: 600;
+}
+#twviaedu{
+	width: 10%;
+	margin-right: 2%;
+}
+#fbviaedu{
+	width: 10%;
+	margin-left: 2%;
+}
+#espaciofooter1{
+	padding-top: 2%;
+}
+#espaciofooter2{
+	padding-bottom: 2%;
+}
+footer{
+	background-color: rgb(51, 51, 51);
+}
+footer ul{
+	padding: 3% 0;
+}
+footer ul li{
+	margin-left: 2%;
+	margin-right: 2%;
+}
+nav{
+	background-color: none;
+}
+#logoviaedusvg{
+	width: 12%;
+	float: left;
+	margin-left: 10%;
+	margin-top: 1%;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+ 	text-decoration: none;
+	background-color: transparent;
+}
+#formatolinksnav{
+	color: white;
+	font-size: 18px;
+}
+#espacionav{
+	margin-top: 0.8%;
+	float: right;
+	padding-right: 10%;
+}
+.invisibleres{
+	display: inline;
+}
+.visibleres{
+	display: none;
+}
+.lista {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+.lista > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+@media (max-width: 768px) and (orientation: portrait) {
+  .invisibleres{
+    display: none;
+  }
+  .visibleres{
+    display: inline;
+ }
