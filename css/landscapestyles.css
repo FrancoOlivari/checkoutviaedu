@@ -1,6 +1,426 @@
-.invisibleres{
+  .invisibleres{
     display: none;
-}
-.visibleres{
+  }
+  .visibleres{
     display: inline;
+ }
+ header {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  overflow-y: hidden;
+  background-color: rgb(86, 66, 115);
+  background-size: cover;
+  color: white;
+  padding-bottom: 30%;
+}
+#bggris{
+	background-color: #E6E6E6;
+	box-sizing: border-box;
+	padding-bottom: 5%;
+}
+#bggrisfinal{
+	background-color: #E6E6E6;
+	box-sizing: border-box;
+}
+#contenedorblanco{
+	background-color: #FFF;
+	padding-bottom: 5%;
+	margin-top: -25%;
+	padding: 2% 5%;
+	box-sizing: border-box;
+	width: 95%;
+	margin-left: 2.5%;
+	min-height: 550px;
+	max-height: 3000px;
+	padding-bottom: 5%;
+}
+#contenedorblanco h1{
+	font-weight: 600;
+	color: rgb(86, 66, 115);
+	padding: 0;
+	text-align: center;
+}
+#botonhacertest{
+	padding: 1% 5%;
+	background-color:rgb(255,75,139);
+	border-radius: 8px;
+	font-size: 26px;
+	text-decoration: none;
+	color: white;
+	font-weight: 600;
+}
+#auxbr{
+	margin-left: 8.3%;
+}
+/* TABS */
+.navcssfix{
+	width: 100%;
+}
+.navcssfix li{
+	float: none;
+	display: inline;
+}
+.navcssfix li a{
+	text-align: center;
+	width: 33%;
+}
+.navcssfix{
+	top: auto;
+	left: auto;
+}
+.nav-tabs{
+	border: none;
+	margin-bottom: 2.5%;
+	text-align: center;
+}
+.nav-tabs > li > a {
+  position: relative;
+  display: inline;
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border: none;
+  border-radius: 0;
+}
+.nav-tabs > li > a:hover {
+  border: none;
+  border-color: none;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: rgb(100, 97, 255);
+  cursor: default;
+  background-color: transparent;
+  border: none;
+  border-bottom-color: transparent;
+}
+.nav-tabs a, a:hover, a:focus {
+    color: rgb(204, 204, 204);
+}
+#formatotab{
+	font-family: 'Dosis';
+	font-size: 14px;
+	font-weight: 600;
+}
+/* FIN TABS */
+/* COLORES DE FUENTE */
+#txtamarillo{
+	font-size: 54px;
+	color: #ffc352;
+	padding-left: 8%;
+	line-height: 0.9;
+}
+#txtrosa{
+	font-size: 14px;
+	font-weight: 600;
+	color: #fa4b8b;
+	padding-left: 10%;
+}
+#ticksrosas{
+	font-size: 14px;
+	font-weight: 600;
+	color: #fa4b8b;
+}
+#txtazul{
+	font-size: 26px;
+	font-weight: 600;
+	color: #6461ff;
+}
+#txtgris{
+	font-size: 14px;
+	font-family: 'Dosis';
+	color: rgb(153, 153, 153);
+	line-height: 1.3;
+	font-weight: 400;
+	text-align: justify;
+	letter-spacing: 1px;
+}
+#txtvioletaS{
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	color: rgb(86, 66, 115);
+	padding-left: 3%;
+}
+h3{
+	font-weight: 500;
+	font-size: 24px;
+	color: rgb(86, 66, 115);
+}
+.form-control{
+	font-size: 15px;
+	height: 50px;
+	font-family: 'Dosis';
+	letter-spacing: 1px;
+	color: rgb(161, 161, 161);
+}
+.completa2{
+	font-size: 18px;
+	line-height: 1;
+	font-weight: 600;
+}
+/* FIN COLORES DE FUENTE */
+#linea{
+	font-size: 18px;
+	line-height: 2.2;
+	color: rgb(230, 230, 230);
+}
+/* FORMATO ACORDEON */
+#pills{
+	float: none;
+	position: relative;
+	top: auto;
+	left: auto;
+}
+#pills .toggle-box {
+    margin-top: 20px;
+}
+
+#pills .toggle-box p {
+    margin: 0;
+    padding: 0;
+}
+
+#pills .toggle-title {
+    width: 95%;
+    margin-bottom: 0px;
+    padding: 10px;
+    background: rgb(240, 240, 250);
+    cursor: pointer;
+    -moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    border-color: transparent;
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    margin-top: 2%;
+    color: rgb(86, 66, 115);
+    font-family: 'Dosis';
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
+
+#pills .toggle-title:hover,
+#pills .toggle-title:active,
+#pills .toggle-title:focus {
+    background: rgb(100, 97, 255);
+    color: white;
+    width: 95%;
+}
+
+#pills .active {
+    background: rgb(100, 97, 255);
+    color: white;
+    border-color: rgb(100, 97, 255);
+    -moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+    -moz-border-radius-bottomright: 0;
+    -moz-border-radius-bottomleft: 0;
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+}
+
+#pills .toggle-title a {
+    color: #111;
+}
+
+#pills .toggle-content {
+    padding-bottom: 0;
+    width: 95%;
+    border: solid 2px #000;
+    -moz-border-radius-topleft: 0;
+	-moz-border-radius-topright: 0;
+    -moz-border-radius-bottomright: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    border-color: rgb(100, 97, 255);
+    -webkit-border-top-left-radius: 0;
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+   	margin-bottom: 2%;
+}
+#pills .toggle-box p{
+	font-family: 'Dosis';
+   	font-size: 14px;
+   	margin: 3%;
+   	letter-spacing: 0.7px;
+   	color: rgb(153, 153, 153);
+}
+/* FIN FORMATO ACORDEON */
+/* FORMATO IMPUTS */
+#imputEmail{
+	width: 95%;
+	margin: auto;
+	margin-bottom: 2.5%;
+}
+#imputNPapa{
+	width: 95%;
+	margin: auto;
+	margin-bottom: 2.5%;
+}
+#imputTuN{
+	width: 95%;
+	margin: auto;
+	margin-bottom: 2.5%;
+	float: left;
+	margin-left: 2.5%;
+}
+#imputTuA{
+	width: 95%;
+	margin: auto;
+	margin-bottom: 2.5%;
+	float: left;
+	margin-left: 2.5%;
+}
+#btnempezar{
+	padding: 1% 3%;
+	background-color:rgb(255,75,139);
+	border-radius: 3px;
+	font-size: 20px;
+	text-decoration: none;
+	border: none;
+	color: white;
+	font-weight: 600;
+	letter-spacing: 1.2px;
+}
+#btnempezar2{
+	padding: 1% 3%;
+	background-color:rgb(255,75,139);
+	border-radius: 3px;
+	font-size: 20px;
+	text-decoration: none;
+	border: none;
+	color: white;
+	font-weight: 600;
+	letter-spacing: 1.2px;
+	margin-left: 3%;
+}
+/* FIN FORMATO IMPUTS */
+#cardsvg{
+	width: 10.5%;
+	padding-left: 1%;
+	margin-bottom: 5%;
+}
+.fstsvg{
+	margin-left: 1.5%;
+}
+#anchototal{
+	width: 80%;
+}
+#floatcostado{
+	width: 90%;
+	float: none;
+	margin-left: 5%;
+	border-right: none;
+}
+#pcostado{
+	float: none;
+	width: 90%;
+	margin-left: 9%;
+	margin-right: 9%;
+}
+#pcostado2{
+	display: inline;
+	padding-right: 15%;
+	color: rgb(86, 66, 115);
+	font-weight: 500;
+	margin-left: 2%;
+	width: 90%;
+	margin-right: 5%;
+}
+#footerviaedu{
+	margin-top: 1%;
+	margin: auto;
+	width: 17%;
+}
+#footerlinks{
+	font-size: 18px;
+	font-weight: 600;
+}
+#twviaedu{
+	width: 10%;
+	margin-right: 2%;
+}
+#fbviaedu{
+	width: 10%;
+	margin-left: 2%;
+}
+#espaciofooter1{
+	padding-top: 2%;
+}
+#espaciofooter2{
+	padding-bottom: 2%;
+}
+footer{
+	background-color: rgb(51, 51, 51);
+}
+footer ul{
+	padding: 3% 0;
+}
+footer ul li{
+	margin-left: 2%;
+	margin-right: 2%;
+}
+nav{
+	background-color: none;
+}
+#logoviaedusvgres{
+	width: 17%;
+	float: none;
+	margin-top: 3%;
+}
+#auxrestop{
+	text-align: center;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+ 	text-decoration: none;
+	background-color: transparent;
+}
+#formatolinksnav{
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	display: inline;
+	padding: 0;
+}
+#auxnav{
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 1%;
+}
+.primnav{
+	padding-right: 1.5%;
+}
+.secnav{
+	padding-left: 1.5%;
+}
+#espacionav{
+	margin-top: 0.8%;
+	float: none;
+	padding-right: 0;
+}
+.lista {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+.lista > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.nav > li{
+	display: inline;
+	margin: 0;
+}
+.navbar-nav{
+	margin: 0;
 }
