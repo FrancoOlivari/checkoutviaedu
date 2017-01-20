@@ -168,21 +168,23 @@ h3{
 }
 /* FORMATO ACORDEON */
 #pills{
-	float: none;
-	position: relative;
-	top: auto;
-	left: auto;
+    float: none;
+    position: relative;
+    top: auto;
+    left: auto;
+    margin-top: -5%;
 }
-#pills .toggle-box {
-    margin-top: 20px;
+#pills .accordion {
+    margin-top: 0;
+
 }
 
-#pills .toggle-box p {
+#pills .accordion p {
     margin: 0;
     padding: 0;
 }
 
-#pills .toggle-title {
+#pills .accordion-toggle {
     width: 95%;
     margin-bottom: 0px;
     padding: 10px;
@@ -205,9 +207,9 @@ h3{
     letter-spacing: 1.2px;
 }
 
-#pills .toggle-title:hover,
-#pills .toggle-title:active,
-#pills .toggle-title:focus {
+#pills .accordion-toggle:hover,
+#pills .accordion-toggle:active,
+#pills .accordion-toggle:focus {
     background: rgb(100, 97, 255);
     color: white;
     width: 95%;
@@ -231,7 +233,7 @@ h3{
     color: #111;
 }
 
-#pills .toggle-content {
+#pills .accordion-content {
     padding-bottom: 0;
     width: 95%;
     border: solid 2px #000;
@@ -245,8 +247,9 @@ h3{
     -webkit-border-bottom-right-radius: 4px;
     -webkit-border-bottom-left-radius: 4px;
    	margin-bottom: 2%;
+   	display: none;
 }
-#pills .toggle-box p{
+#pills .accordion-content p{
 	font-family: 'Dosis';
    	font-size: 14px;
    	margin: 3%;

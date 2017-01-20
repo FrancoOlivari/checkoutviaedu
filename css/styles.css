@@ -1,3 +1,6 @@
+p{
+	margin-bottom: 0;
+}
 header {
   position: relative;
   width: 100%;
@@ -6,7 +9,7 @@ header {
   background-color: rgb(86, 66, 115);
   background-size: cover;
   color: white;
-  padding-bottom: 20%;
+  padding-bottom: 17%;
 }
 #bggris{
 	background-color: #E6E6E6;
@@ -23,8 +26,8 @@ header {
 	margin-top: -17.5%;
 	padding: 2% 5%;
 	box-sizing: border-box;
-	min-height: 550px;
-	max-height: 1200px;
+	min-height: 400px;
+	max-height: 1700px;
 }
 #contenedorblanco h1{
 	font-weight: 600;
@@ -122,10 +125,25 @@ h3{
 }
 .form-control{
 	font-size: 15px;
-	height: 50px;
+	height: 42px;
 	font-family: 'Dosis';
 	letter-spacing: 1px;
-	color: rgb(161, 161, 161);
+	color: rgb(86, 66, 115);
+}
+
+::-webkit-input-placeholder { /* Chrome */
+  color: rgb(160, 160, 160);
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: rgb(160, 160, 160);
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: rgb(160, 160, 160);
+  opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: rgb(160, 160, 160);
+  opacity: 1;
 }
 .completa2{
 	font-size: 18px;
@@ -143,16 +161,16 @@ h3{
 	float: left;
 	margin-left: 5%;
 }
-#pills .toggle-box {
+#pills .accordion {
     margin-top: 20px;
 }
 
-#pills .toggle-box p {
+#pills .accordion p {
     margin: 0;
     padding: 0;
 }
 
-#pills .toggle-title {
+#pills .accordion-toggle {
     width: 400px;
     margin-bottom: 0px;
     padding: 10px;
@@ -175,9 +193,9 @@ h3{
     letter-spacing: 1.2px;
 }
 
-#pills .toggle-title:hover,
-#pills .toggle-title:active,
-#pills .toggle-title:focus {
+#pills .accordion-toggle:hover,
+#pills .accordion-toggle:active,
+#pills .accordion-toggle:focus {
     background: rgb(100, 97, 255);
     color: white;
     width: 400px;
@@ -201,7 +219,7 @@ h3{
     color: #111;
 }
 
-#pills .toggle-content {
+#pills .accordion-content {
     padding-bottom: 0;
     width: 400px;
     border: solid 2px #000;
@@ -215,10 +233,11 @@ h3{
     -webkit-border-bottom-right-radius: 4px;
     -webkit-border-bottom-left-radius: 4px;
    	margin-bottom: 2%;
+   	display: none;
 }
-#pills .toggle-box p{
+#pills .accordion-content p{
 	font-family: 'Dosis';
-   	font-size: 14px;
+   	font-size: 15px;
    	margin: 3%;
    	letter-spacing: 0.7px;
    	color: rgb(153, 153, 153);
@@ -229,11 +248,15 @@ h3{
 	width: 95%;
 	margin: auto;
 	margin-bottom: 2.5%;
+	font-size: 14px;
+	height: 42px;
 }
 #imputNPapa{
 	width: 95%;
 	margin: auto;
 	margin-bottom: 2.5%;
+	font-size: 14px;
+	height: 42px;
 }
 #imputTuN{
 	width: 45%;
@@ -241,6 +264,8 @@ h3{
 	margin-bottom: 2.5%;
 	float: left;
 	margin-left: 2.5%;
+	font-size: 14px;
+	height: 42px;
 }
 #imputTuA{
 	width: 47.5%;
@@ -248,6 +273,20 @@ h3{
 	margin-bottom: 2.5%;
 	float: left;
 	margin-left: 2.5%;
+	font-size: 14px;
+	height: 42px;
+}
+::-webkit-input-placeholder {
+   color: red;
+}
+:-moz-placeholder { /* Firefox 18- */
+   color: red;  
+}
+::-moz-placeholder {  /* Firefox 19+ */
+   color: red;  
+}
+:-ms-input-placeholder {  
+   color: red;  
 }
 #btnempezar{
 	padding: 1% 3%;
@@ -527,10 +566,25 @@ h3{
 }
 .form-control{
 	font-size: 15px;
-	height: 50px;
+	height: 42px;
 	font-family: 'Dosis';
 	letter-spacing: 1px;
-	color: rgb(161, 161, 161);
+	color: rgb(86, 66, 115);
+}
+
+::-webkit-input-placeholder { /* Chrome */
+  color: rgb(160, 160, 160);
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: rgb(160, 160, 160);
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: rgb(160, 160, 160);
+  opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: rgb(160, 160, 160);
+  opacity: 1;
 }
 .completa2{
 	font-size: 18px;
@@ -545,21 +599,22 @@ h3{
 }
 /* FORMATO ACORDEON */
 #pills{
-	float: none;
-	position: relative;
-	top: auto;
-	left: auto;
+    float: none;
+    position: relative;
+    top: auto;
+    left: auto;
+    margin-top: -5%;
 }
-#pills .toggle-box {
+#pills .accordion {
     margin-top: 20px;
 }
 
-#pills .toggle-box p {
+#pills .accordion p {
     margin: 0;
     padding: 0;
 }
 
-#pills .toggle-title {
+#pills .accordion-toggle {
     width: 95%;
     margin-bottom: 0px;
     padding: 10px;
@@ -582,9 +637,9 @@ h3{
     letter-spacing: 1.2px;
 }
 
-#pills .toggle-title:hover,
-#pills .toggle-title:active,
-#pills .toggle-title:focus {
+#pills .accordion-toggle:hover,
+#pills .accordion-toggle:active,
+#pills .accordion-toggle:focus {
     background: rgb(100, 97, 255);
     color: white;
     width: 95%;
@@ -608,7 +663,7 @@ h3{
     color: #111;
 }
 
-#pills .toggle-content {
+#pills .accordion-content {
     padding-bottom: 0;
     width: 95%;
     border: solid 2px #000;
@@ -622,8 +677,9 @@ h3{
     -webkit-border-bottom-right-radius: 4px;
     -webkit-border-bottom-left-radius: 4px;
    	margin-bottom: 2%;
+   	display: none;
 }
-#pills .toggle-box p{
+#pills .accordion-content p{
 	font-family: 'Dosis';
    	font-size: 14px;
    	margin: 3%;
