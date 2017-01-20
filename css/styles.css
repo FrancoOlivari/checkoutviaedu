@@ -155,6 +155,10 @@ h3{
 	line-height: 2.2;
 	color: rgb(230, 230, 230);
 }
+#auxelegi{
+	margin-left: 50.5%;
+	width: 100%;
+}
 /* FORMATO ACORDEON */
 #pills{
 	float: left;
@@ -353,6 +357,7 @@ h3{
 }
 footer{
 	background-color: rgb(51, 51, 51);
+	background-size: cover;
 }
 footer ul{
 	padding: 3% 0;
@@ -548,15 +553,21 @@ nav{
 }
 h3{
 	font-weight: 500;
-	font-size: 24px;
+	font-size: 20px;
 	color: rgb(86, 66, 115);
+	padding-bottom: 4%;
+}
+#auxelegi{
+	margin-left: 0;
+	text-align: center;
+	width: 100%;
 }
 .form-control{
 	font-size: 15px;
 	height: 42px;
 	font-family: 'Dosis';
 	letter-spacing: 1px;
-	color: #666;
+	color: #333;
 }
 ::-webkit-input-placeholder { /* Chrome */
   color: rgb(160, 160, 160);
@@ -779,6 +790,7 @@ h3{
 }
 footer{
 	background-color: rgb(51, 51, 51);
+	max-height: 100%;	 
 }
 footer ul{
 	padding: 3% 0;
