@@ -23,10 +23,10 @@ header {
 #contenedorblanco{
 	background-color: #FFF;
 	padding-bottom: 5%;
-	margin-top: -17.5%;
+	margin-top: -16.5%;
 	padding: 2% 5%;
 	box-sizing: border-box;
-	min-height: 400px;
+	min-height: 450px;
 	max-height: 1700px;
 }
 #contenedorblanco h1{
@@ -128,9 +128,8 @@ h3{
 	height: 42px;
 	font-family: 'Dosis';
 	letter-spacing: 1px;
-	color: rgb(86, 66, 115);
+	color: #666;
 }
-
 ::-webkit-input-placeholder { /* Chrome */
   color: rgb(160, 160, 160);
 }
@@ -275,18 +274,6 @@ h3{
 	margin-left: 2.5%;
 	font-size: 14px;
 	height: 42px;
-}
-::-webkit-input-placeholder {
-   color: red;
-}
-:-moz-placeholder { /* Firefox 18- */
-   color: red;  
-}
-::-moz-placeholder {  /* Firefox 19+ */
-   color: red;  
-}
-:-ms-input-placeholder {  
-   color: red;  
 }
 #btnempezar{
 	padding: 1% 3%;
@@ -569,9 +556,8 @@ h3{
 	height: 42px;
 	font-family: 'Dosis';
 	letter-spacing: 1px;
-	color: rgb(86, 66, 115);
+	color: #666;
 }
-
 ::-webkit-input-placeholder { /* Chrome */
   color: rgb(160, 160, 160);
 }
