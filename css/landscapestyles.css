@@ -149,7 +149,8 @@ h3{
 	color: rgb(86, 66, 115);
 }
 #auxelegi{
-	margin-left: 50.5%;
+	margin-left: 0;
+	text-align: center;
 	width: 100%;
 }
 .form-control{
